@@ -256,9 +256,9 @@ h2 {
     font-size: 2.6rem;
     margin-left: 1rem;
   }
-  .btn-links{
+  /* .btn-links{
     font-size: 1rem;
-  }
+  } */
 }
 
 .container {
@@ -308,7 +308,7 @@ h2 {
   border-radius: 1rem;
   color: #333333;
   text-decoration: none;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 .container section a {
   text-decoration: underline;
