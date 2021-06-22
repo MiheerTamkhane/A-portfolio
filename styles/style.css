@@ -256,6 +256,9 @@ h2 {
     font-size: 2.6rem;
     margin-left: 1rem;
   }
+  .btn-links{
+    font-size: 1rem;
+  }
 }
 
 .container {
