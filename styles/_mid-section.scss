@@ -1,0 +1,39 @@
+.container {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  max-width: 900px;
+  @include flex(space-evenly);
+  flex-direction: column;
+  margin: auto;
+  h2 {
+    text-align: center;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    font-family: "Lato", sans-serif;
+    border-bottom: 2px solid $fourth;
+    color: $fourth;
+    font-size: 2rem;
+  }
+  section {
+    margin: 1.4rem 0rem;
+    padding: 2rem 4rem;
+  }
+  section p {
+    max-width: 600px;
+    margin-bottom: 1rem;
+    color: $text;
+  }
+  section a {
+    background-color: $sky-blue;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    color: $text;
+    &:focus {
+      border-bottom: 2px solid rgba($color: #000000, $alpha: 0.5);
+    }
+  }
+}
+.page-headings {
+  font-size: 2.6rem;
+  text-align: center;
+}

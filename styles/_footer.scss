@@ -1,0 +1,38 @@
+.footer {
+  @include flex(center);
+  flex-direction: column;
+  padding: 2rem;
+  text-align: center;
+  background-color: #d8e3e7;
+  h1 {
+    font-size: 2.4rem;
+    font-family: "Lato", sans-serif;
+    margin: 1rem 0rem;
+    color: #ec4646;
+  }
+  p {
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+    color: #333333;
+  }
+  small {
+    margin-bottom: 1.2rem;
+    color: #333333;
+  }
+}
+
+.social-links {
+  padding: 1rem;
+  a {
+    font-size: 1.4rem;
+    padding: 0rem 1rem;
+    color: $primary;
+    transition: all 0.2s ease-out;
+    &:hover {
+      color: #aa2e2e;
+    }
+  }
+  .mid-line {
+    border-right: 1px solid $text;
+  }
+}
