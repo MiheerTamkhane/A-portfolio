@@ -256,14 +256,14 @@ h2 {
     font-size: 2.6rem;
     margin-left: 1rem;
   }
-  .container section .btn-links {
+  /* .container section .btn-links {
     background-color: #d8e3e7;
     padding: 0.5rem 1rem;
     border-radius: 1rem;
     color: #333333;
     text-decoration: none;
     font-size: 0.5rem;
-  }
+  } */
 }
 
 .container {
@@ -314,6 +314,9 @@ h2 {
   color: #333333;
   text-decoration: none;
   font-size: 1.2rem;
+  display: inline-block;
+  width: 60%;
+  margin: 10px 0px;
 }
 .container section a {
   text-decoration: underline;
