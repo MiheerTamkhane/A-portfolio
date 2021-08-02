@@ -119,7 +119,7 @@ a {
     border: none;
   }
   .navbar h1 a {
-    color: var(--heading);
+    color: var(--primary-heding);
   }
   .navbar ul {
     display: -webkit-box;
