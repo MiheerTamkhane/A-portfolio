@@ -21,11 +21,11 @@
       </nav>
     </header>
     <div class="blog-container">
-      <h1>Javascript Array methods</h1>
+      <h1>Javascript Array methods | part 1</h1>
       <div style="margin-bottom: 1rem; margin-top: 1rem">
-        <span class="blog-tag red">Javascript</span
+        <span class="blog-tag red">beginner</span
         ><span class="blog-tag sky">arrays</span
-        ><span class="blog-tag yellow">beginner</span>
+        ><span class="blog-tag yellow">Javascript</span>
         </div>
       <time
         >Published on <span style="color:white">Aug 15, 2021</span> ·
@@ -37,16 +37,53 @@
       <p>Now next we are learning about array methods there are plenty of array mentods built in for simplifying our life to work on arrays. For now we are focusing on mainly used and important methods below.</p>
 <br>
       <div class="concepts">
-        <h3>concat()</h3>
+        <h2>concat()</h2>
         <p>The concat() method or concatination method simply allow us to join two or more arrys and creates new array of them, without changing values of previous arrays. Lets see how it by example</p>
         <img src="../images/concat.PNG" alt="">
-        <p>As you can see in above example we create two arrays, array and array2 and join and store them in new variable called concatArray.Lets move to our next method</p>
+        <p>As you can see in above example we create two arrays, array and array2 and join and store them in new variable called concatArray. Lets move to our next method</p>
       </div>
+      <br>
       <div class="concepts">
-        <h3>join()</h3>
-        <p>The concat() method or concatination method simply allow us to join two or more arrys and creates new array of them, without changing values of previous arrays. Lets see how it by example</p>
-        <img src="../images/concat.PNG" alt="">
-        <p>As you can see in above example we create two arrays, array and array2 and join and store them in new variable called concatArray.Lets move to our next method</p>
+        <h2>join()</h2>
+        <p>The join() method also joins the elements of itself. And return an string.</p>
+        <p>All elements will store in one string but we can saperate it by specified separator.
+        like - , space, / etc.
+        </p>
+        <p>Also it does not affect the old array.</p>
+        <img src="../images/join.PNG" alt="">
+        <p>In above example we joining our array elements by hyphen(-) in one string and stores in dateFormat vaiable. Getting a string output.</p>
+      </div>
+      <br>
+      <div class="concepts">
+        <h2>slice()</h2>
+        <p>Slice function selects number of elements we want to extract from an array and return new array of elements.</p>
+        <p>slice function has two index arguments first is start and second is end argument, In which we can specify part of an array elements we want to extract.</p>
+        <img src="../images/slice.PNG" alt="">
+        <p>As you can see, we gave two arguments to the slice to extract elements from index 1 to 4. and we get elements upto 3rd index.</p>
+      </div>
+      <br>
+      <div class="concepts">
+        <h2>splice()</h2>
+        <p>As we seen slice method which takes or extract some part of array and return new array. Like that splice() function also has power to extract as well as adds elements from an array. This function changes(overwrites) the original array.</p>
+        <p>splice() has three or more arguments
+          from which first argument takes at which index we want to add or remove element,
+           second howmuch elements we want to remove or add, and third is elements itself which adds in array.
+        </p>
+<img src="../images/splice.PNG" alt="">
+<p>As you can see the splice function overwrites the main variable stack in which the first argument takes index of 3 , how many elements to remove argument has 0 and which elements we want to add are "Node" and "express". It means At position 3, remove 0 elements and add "node" and "express".</p>
+      </div>
+      <br>
+      <div class="concepts">
+        <h2>sort()</h2>
+        <p>sort() function sorts a elements of an array. The default sorting of numbers and alphabates in array is ascendin.</p>
+        <p>Sort() function is very usefull if we have array of some user ID's and we want to sort them.</p>
+        <img src="../images/sort.PNG" alt="">
+<p>As you can see in above example we stores an random numbers in array and using sort function we get a ascending ordered array.</p>
+<br>
+<p>That's it for this part folks, I hope you gain a little bit knowledge on array methods. Its my beginner attempt to right a blogs and all. If some of you don't understands a concepts mentioned above you can feel free to contact me on Twitter or LinkeIn to ask questions.
+</p>
+<br>
+<strong><p>Thank you, Keep Conding 🙂</p></strong>
       </div>
    </div>
     <footer class="footer">
