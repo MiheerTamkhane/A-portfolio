@@ -449,5 +449,5 @@ h2 {
 }
 .blog-container p {
   line-height: 1.8rem;
-  text-align: justify;
+  text-align: start;
 }
